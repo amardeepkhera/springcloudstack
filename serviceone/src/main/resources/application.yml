@@ -1,0 +1,15 @@
+server:
+  port: 0
+spring:
+  application:
+    name: One
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+    healthcheck:
+          enabled: true
+  instance:
+      preferIpAddress: true
+      leaseRenewalIntervalInSeconds: 1
+      leaseExpirationDurationInSeconds: 2
