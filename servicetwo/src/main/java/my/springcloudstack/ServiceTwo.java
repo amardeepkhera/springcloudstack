@@ -8,9 +8,9 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @EnableEurekaClient
 @EnableFeignClients
 @SpringBootApplication
-public class ApplicationOne {
+public class ServiceTwo {
 
     public static void main(String[] args) {
-        SpringApplication.run(ApplicationOne.class, args);
+        SpringApplication.run(ServiceTwo.class, args);
     }
 }

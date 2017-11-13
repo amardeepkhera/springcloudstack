@@ -1,12 +1,12 @@
 server:
-  port: 0
+  port: 8762
 spring:
   application:
     name: One
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+      defaultZone: ${EUREKA_URI:http://servicediscoveryserver:8761/eureka}
     healthcheck:
           enabled: true
   instance:
