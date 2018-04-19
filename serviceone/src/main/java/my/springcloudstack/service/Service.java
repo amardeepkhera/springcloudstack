@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Service {
 
     @Autowired
+    private
     ServiceTwoClient serviceTwoClient;
 
     @RequestMapping("/hello")

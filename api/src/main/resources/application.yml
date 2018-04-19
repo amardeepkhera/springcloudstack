@@ -6,7 +6,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_URI:http://servicediscoveryserver:8761/eureka}
+      defaultZone: ${EUREKA_URI:http://servicediscovery:8761/eureka}
   instance:
     preferIpAddress: true
     leaseRenewalIntervalInSeconds: 1
