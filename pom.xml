@@ -14,7 +14,7 @@
         <module>servicetwo</module>
         <module>clientone</module>
         <module>clienttwo</module>
-        <module>api</module>
+        <module>apigateway</module>
     </modules>
     <dependencyManagement>
         <dependencies>
