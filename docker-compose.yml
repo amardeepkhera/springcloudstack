@@ -1,0 +1,18 @@
+servicediscovery:
+  image: my.springcloudstack-servicediscoveryserver
+  ports:
+    - "8761:8761"
+api-gateway:
+  image: my.springcloudstack-api-gateway
+  ports:
+    - "10000:10000"
+  links:
+    - servicediscovery
+One:
+  image: my.springcloudstack-serviceone
+  links:
+    - servicediscovery
+Two:
+  image: my.springcloudstack-servicetwo
+  links:
+    - servicediscovery
