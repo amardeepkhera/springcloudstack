@@ -20,6 +20,8 @@
         <module>serviceone</module>
         <module>servicetwo</module>
         <module>apigateway</module>
+        <module>configserver</module>
+        <module>configurations</module>
     </modules>
     <dependencyManagement>
         <dependencies>
