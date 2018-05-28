@@ -12,7 +12,9 @@ One:
   image: my.springcloudstack-serviceone
   links:
     - servicediscovery
+    - api-gateway
 Two:
   image: my.springcloudstack-servicetwo
   links:
     - servicediscovery
+    - api-gateway

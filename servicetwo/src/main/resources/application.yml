@@ -13,3 +13,5 @@ eureka:
       preferIpAddress: true
       leaseRenewalIntervalInSeconds: 1
       leaseExpirationDurationInSeconds: 2
+gateway:
+  baseUrl: ${API_GATEWAY_URI:http://api-gateway:10000}

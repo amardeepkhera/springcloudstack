@@ -19,8 +19,6 @@
         <module>servicediscoveryserver</module>
         <module>serviceone</module>
         <module>servicetwo</module>
-        <module>clientone</module>
-        <module>clienttwo</module>
         <module>apigateway</module>
     </modules>
     <dependencyManagement>
