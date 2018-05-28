@@ -12,10 +12,8 @@ spring:
             uri: https://github.com/amardeepkhera/springcloudstack
             basedir: target/configurations
             searchPaths: configurations
+            clone-on-start: true
 logging:
-  level.org.springframework.*: DEBUG
-#          git:
-#            uri: https://github.com/amardeepkhera/springcloudstack
-#            basedir: target/configurations
-#            searchPaths: configurations
+  level:
+   org.springframework.*: DEBUG
 

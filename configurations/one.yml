@@ -1,8 +1,9 @@
+profiles: default
+spring:
+ application:
+    name: one
 server:
   port: 0
-spring:
-  application:
-    name: one
 eureka:
   client:
     serviceUrl:
