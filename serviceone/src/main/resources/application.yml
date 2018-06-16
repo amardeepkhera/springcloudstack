@@ -1,17 +1,14 @@
-server:
-  port: 0
- spring:
-  application:
-    name: one
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: ${EUREKA_URI:http://servicediscovery:8761/eureka}
-    healthcheck:
-          enabled: true
-  instance:
-      preferIpAddress: true
-      leaseRenewalIntervalInSeconds: 1
-      leaseExpirationDurationInSeconds: 2
-gateway:
-  baseUrl: ${API_GATEWAY_URI:http://api-gateway:10000}
+#server:
+#  port: 0
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: ${EUREKA_URI:http://servicediscovery:8761/eureka}
+#    healthcheck:
+#          enabled: true
+#  instance:
+#      preferIpAddress: true
+#      leaseRenewalIntervalInSeconds: 1
+#      leaseExpirationDurationInSeconds: 2
+#gateway:
+#  baseUrl: ${API_GATEWAY_URI:http://api-gateway:10000}

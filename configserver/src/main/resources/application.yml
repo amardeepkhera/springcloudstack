@@ -15,5 +15,5 @@ spring:
             clone-on-start: true
 logging:
   level:
-   org.springframework.*: DEBUG
+   org.springframework.*: INFO
 

@@ -1,0 +1,7 @@
+spring:
+ application:
+  name: one
+ cloud:
+  config:
+   uri: http://localhost:8888/config
+   label: config-server
