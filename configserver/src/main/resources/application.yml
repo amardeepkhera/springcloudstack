@@ -13,6 +13,7 @@ spring:
             basedir: target/configurations
             searchPaths: configurations
             clone-on-start: true
+        label: config-server
 eureka:
   client:
     serviceUrl:

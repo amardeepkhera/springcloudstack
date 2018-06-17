@@ -11,7 +11,7 @@ eureka:
 cloud:
   config:
 #   uri: http://localhost:8888/config
-   label: config-server
+#   label: config-server
   discovery:
    service-id: configserver
    enabled: true
