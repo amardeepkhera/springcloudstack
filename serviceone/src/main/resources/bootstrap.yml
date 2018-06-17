@@ -2,6 +2,7 @@ spring:
  application:
   name: one
  cloud:
-  config:
-   uri: http://localhost:8888/config
-   label: config-server
+                         config:
+                          label: config-server
+                          discovery:
+                           enabled: true

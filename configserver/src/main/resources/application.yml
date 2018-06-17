@@ -3,8 +3,6 @@ server:
   servlet:
    context-path: /config
 spring:
-  application:
-    name: configserver
   cloud:
       config:
         server:
@@ -13,6 +11,11 @@ spring:
             basedir: target/configurations
             searchPaths: configurations
             clone-on-start: true
+eureka:
+  client:
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://servicediscovery:8761/eureka}
 logging:
   level:
    org.springframework.*: INFO

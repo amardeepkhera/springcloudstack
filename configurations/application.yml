@@ -8,3 +8,10 @@ eureka:
       preferIpAddress: true
       leaseRenewalIntervalInSeconds: 1
       leaseExpirationDurationInSeconds: 2
+cloud:
+  config:
+#   uri: http://localhost:8888/config
+   label: config-server
+  discovery:
+   service-id: configserver
+   enabled: true
