@@ -12,3 +12,6 @@ cloud:
  discovery:
   service-id: configserver
   enabled: true
+logging:
+ level:
+  org.springframework: DEBUG
