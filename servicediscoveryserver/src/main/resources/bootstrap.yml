@@ -3,4 +3,5 @@ spring:
     name: discovery
   cloud:
     config:
-      label:
+      label: config-server
+

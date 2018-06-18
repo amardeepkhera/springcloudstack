@@ -1,9 +1,9 @@
 server:
   port: 8761
-spring:
- cloud:
-  config:
-   label: config-server
+#spring:
+# cloud:
+#  config:
+#   label: config-server
 eureka:
   instance:
     hostname: servicediscovery
