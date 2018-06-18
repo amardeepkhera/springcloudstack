@@ -1,5 +1,7 @@
 eureka:
   client:
+    registerWithEureka: false
+    fetchRegistry: false
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://servicediscovery:8761/eureka}
     healthcheck:
