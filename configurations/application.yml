@@ -9,9 +9,6 @@ eureka:
       leaseRenewalIntervalInSeconds: 1
       leaseExpirationDurationInSeconds: 2
 cloud:
- config:
-  label: config-server
-#   uri: http://localhost:8888/config
  discovery:
   service-id: configserver
   enabled: true
