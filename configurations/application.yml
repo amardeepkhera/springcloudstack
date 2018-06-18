@@ -14,4 +14,4 @@ cloud:
   enabled: true
 logging:
  level:
-  org.springframework: DEBUG
+  org.springframework.*: DEBUG
