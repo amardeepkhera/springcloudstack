@@ -1,7 +1,5 @@
 eureka:
   client:
-    registerWithEureka: false
-    fetchRegistry: false
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://servicediscovery:8761/eureka}
     healthcheck:
@@ -11,9 +9,9 @@ eureka:
       leaseRenewalIntervalInSeconds: 1
       leaseExpirationDurationInSeconds: 2
 cloud:
-  config:
+ config:
+  label: config-server
 #   uri: http://localhost:8888/config
-#   label: config-server
-  discovery:
-   service-id: configserver
-   enabled: true
+ discovery:
+  service-id: configserver
+  enabled: true
